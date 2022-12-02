@@ -1,13 +1,12 @@
-package com.example.springboot3introduction;
+package sk.balaz;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBoot3IntroductionApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBoot3IntroductionApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
-
 }
