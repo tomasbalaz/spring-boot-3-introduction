@@ -14,7 +14,9 @@ public class Application {
     }
 
     @GetMapping("/greet")
-    public String greet() {
-        return "Hello";
+    public GreetRespone greet() {
+        return new GreetRespone("Hello");
     }
+
+    record GreetRespone(String greet) {}
 }
