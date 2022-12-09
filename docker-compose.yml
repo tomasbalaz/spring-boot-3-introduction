@@ -33,4 +33,8 @@ volumes:
 # psql -U user
 # \l
 # CREATE DATABASE customer;
+# \c customer
+# \dt
+# \d
+# SELECT * FROM customer;
 
